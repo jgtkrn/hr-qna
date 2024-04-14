@@ -1,0 +1,9 @@
+version: '3'
+services:
+  qualtics-be:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qualtics-be
+    ports:
+      - "3004:3004"

@@ -1,0 +1,12 @@
+export { Activity } from '../src/api/activities/entities/activity.entity';
+export { ActivityTest } from '../src/api/activities/entities/activity-test.entity';
+export { File } from '../src/helper/file/entities/file.entity';
+export { Participant } from '../src/api/participants/entities/participant.entity';
+export { Qna } from '../src/api/qna/entities/qna.entity';
+export { QnaHistory } from '../src/api/qna/entities/qna-history.entity';
+export { Role } from '../src/api/roles/entities/role.entity';
+export { Subscription } from '../src/api/subscriptions/entities/subscription.entity';
+export { SubscriptionHistory } from '../src/api/subscription-history/entities/subscription-history.entity';
+export { Test } from '../src/api/tests/entities/test.entity';
+export { TestHistory } from '../src/api/tests/entities/test-history.entity';
+export { User } from '../src/api/users/entities/user.entity';
